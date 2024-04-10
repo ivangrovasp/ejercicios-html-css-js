@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(252, 4, 4);
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(238, 214, 0);
+}
+.square {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+.rectangular{
+    border: 1px solid black;
+    cursor: progress;
+    background-color: blue;
+}
+.round{
+    border-radius: 50px;
+    cursor: grab;
+}
